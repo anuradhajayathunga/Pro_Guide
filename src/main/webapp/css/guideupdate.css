@@ -1,0 +1,204 @@
+@charset "ISO-8859-1";
+
+====================================================================
+  Signup Section
+====================================================================
+
+***/
+
+.signup-section{
+  position: relative;
+  padding: 120px 0px;
+}
+
+.signup-section .auto-container{
+  max-width: 720px;
+}
+
+.signup-section .signup-form{
+  position: relative;
+  max-width: 570px;
+  margin: 0 auto;
+  padding: 40px 40px 10px;
+  background: #F3F7FA;
+}
+
+.signup-section .signup-form h5{
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 700;
+}
+
+.signup-section .lower-link{
+  position: relative;
+  text-align: center;
+  line-height: 1.70em;
+  margin-top: 60px;
+}
+
+.signup-section .lower-link a{
+  color: #1DC5CE;
+  text-decoration: underline;
+}
+
+/*** 
+
+====================================================================
+  Reset Password Section
+====================================================================
+
+***/
+
+.reset-section{
+  position: relative;
+  padding: 120px 0px;
+}
+
+.reset-section .auto-container{
+  max-width: 720px;
+}
+
+.reset-section .reset-form{
+  position: relative;
+  max-width: 570px;
+  margin: 0 auto;
+  padding: 40px 40px 10px;
+  background: #F3F7FA;
+}
+
+.reset-section .reset-form h5{
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 700;
+}
+
+.reset-section .lower-link{
+  position: relative;
+  text-align: center;
+  line-height: 1.70em;
+  margin-top: 60px;
+}
+
+.reset-section .lower-link a{
+  color: #1DC5CE;
+  text-decoration: underline;
+}
+
+.reset-section .invalid-alert{
+  position: relative;
+  display: block;
+  font-weight: 500;
+  color: #1DC5CE;
+  padding: 15px 20px;
+  line-height: 24px;
+  background: #D3F0F4;
+}
+
+.reset-section .invalid-alert i{
+  font-size: 18px;
+  padding-right: 15px;
+}
+
+/*** 
+
+====================================================================
+  Contact Section
+====================================================================
+
+***/
+
+.contact-section{
+  position: relative;
+  padding: 120px 0px 0px;
+}
+
+.contact-section .floated-icon{
+  position: absolute;
+}
+
+.contact-section .floated-icon.right{
+  right: 70px;
+  top: 120px;
+}
+
+.contact-section .floated-icon.right-2{
+   right: 90px;
+  bottom: 250px;
+}
+
+.contact-section .title-box{
+  max-width: 670px;
+  margin-bottom: 60px;
+}
+
+.contact-section .title-box h2{
+  text-transform: none;
+}
+
+.contact-section .contact-form{
+  position: relative;
+  padding: 40px 40px 15px;
+  background: #F3F7FA;
+}
+
+.contact-section .info-section{
+  position: relative;
+  margin-bottom: 90px;
+}
+
+.info-section .info-block{
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.info-section .info-block .inner-box{
+  position: relative;
+  display: block;
+  text-align: center;
+  padding: 30px 30px;
+  background: #ffffff;
+  border: 1px dashed #1DC5CE;
+  min-height: 100%;
+  border-radius: 8px;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.info-section .info-block .inner-box:hover{
+    box-shadow: 0 12px 30px 0 rgba(29, 197, 206, 0.20);
+}
+
+.info-section .info-block .map-icon{
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.info-section .info-block h5{
+  position: relative;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.info-section .info-block .address{
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.info-section .info-block .phone{
+  position: relative;
+  font-size: 16px;
+  font-weight: 500;
+  color: #1DC5CE;
+  line-height: 24px;
+}
+
+.info-section .info-block .phone a{
+  color: #1DC5CE;
+  text-decoration: underline;
+}
+
+/*** 

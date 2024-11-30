@@ -1,0 +1,221 @@
+
+      @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,700;1,200;1,600&display=swap');
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Nunito', sans-serif;
+        box-sizing: border-box;
+        text-decoration: none;
+      }
+
+      body {
+        background: #090a4a no-repeat center;
+        background-size: cover;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .profile-card {
+        width: 35rem;
+        overflow: hidden;
+        text-align: center;
+        position: relative;
+        box-shadow: 0 0 10px #00000070;
+      }
+
+      .top-section {
+        padding: 30px 100px;
+        background: #a5f9e8;
+      }
+
+      .message,
+      .notif {
+        position: absolute;
+        top: 40px;
+        font-size: 20px;
+        cursor: pointer;
+        color: black;
+      }
+
+      .message {
+        right: 40px;
+      }
+
+      .notif {
+        left: 40px;
+      }
+
+      .pic {
+        width: 150px;
+        height: 150px;
+        margin: auto;
+        margin-bottom: 20px;
+        border: 2px solid #8535a9;
+        border-radius: 50%;
+        padding: 8px;
+        position: relative;
+      }
+
+      .pic:after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        border: 1px solid #e600d3;
+        left: 0;
+        top: 0;
+        box-sizing: border-box;
+        border-radius: 50%;
+        animation: wave 1.5s infinite linear;
+      }
+
+      @keyframes wave {
+        to {
+          transform: scale(1.5);
+          opacity: 0;
+        }
+      }
+
+      .pic img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+      }
+
+      .name {
+        margin-top: 10px;
+        color: #363639;
+        font-size: 23px;
+        text-align: justify;
+        letter-spacing: 2px;
+        font-weight: bolder;
+      }
+
+      .name h3 {
+        font-size: 10px;
+        color: #d81430;
+        
+      }
+
+      .tag {
+        font-size: 10px;
+        color: #222;
+        font-weight: bolder;
+      }
+
+      .bottom-section {
+        background: #a5f9e8;
+        padding: 35px 25px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        text-transform: uppercase;
+      }
+
+      .border {
+        width: 1px;
+        height: 20px;
+        background: #fdfdfd;
+        margin: 0 10px;
+      }
+
+      .bottom-section span {
+        font-size: 7px;
+        display: block;
+      }
+	/* Styling for the social media icons */
+	.social-media {
+	  display: flex;
+	  align-items: center;
+	  margin-bottom: 12px;
+	}
+	
+	.social-media a {
+	  text-decoration: none;
+	  color: #f1f1f1;
+	  margin: 0 10px;
+	  position: relative;
+	  display: inline-block;
+	  transition: transform 0.3s, opacity 0.3s;
+	}
+	
+	.social-media a i {
+	  width: 60px;
+	  height: 60px;
+	  background: #114636;
+	  border-radius: 50%;
+	  font-size: 20px;
+	  line-height: 60px;
+	  text-align: center;
+	  transition: all 0.3s;
+	}
+	
+	.social-media a i:after {
+	  content: "";
+	  width: 100%;
+	  height: 100%;
+	  position: absolute;
+	  background: #1a1919;
+	  left: 0;
+	  top: 0;
+	  box-sizing: border-box;
+	  border-radius: 50%;
+	  z-index: -1;
+	  transition: transform 0.3s linear, opacity 0.3s linear;
+	}
+	
+	.social-media a:hover i {
+	  transform: scale(1.1);
+	}
+	
+	.social-media a:hover i:after {
+	  transform: scale(1.1);
+	  opacity: 0;
+	}
+	.col-md-8{
+	  margin-top:10px;
+		font-size:25px;
+	}
+	.btn {
+	  display: inline-block;
+	  padding: .2rem .5rem;
+	  margin:0 2rem;
+	  border: .2rem solid rgba(84, 1, 90, 0.444);
+	  /* box-shadow: .1rem .3rem .1rem .2rem rgba(0, 0, 0, .3); */
+	  cursor: pointer;
+	  background: var(--light-color);
+	  font-size: 1rem;
+	  font-weight: bolder;
+	  color: #000000;
+	  border-radius:1.5rem;
+	  position: relative;
+	  overflow: hidden;
+	  z-index: 0;
+	  
+	  
+	}
+	.btn2 {
+	  display: inline-block;
+	  padding: .5rem 1rem;
+	  border: 0rem solid rgba(0, 0, 0, .1);
+	  box-shadow: .1rem .3rem .1rem .2rem rgba(0, 0, 0, .3);
+	  cursor: pointer;
+	  background:var(--purple);
+	  font-size: 2rem;
+	  font-weight: bolder;
+	  color:  #fff;
+	  border-radius:1.5rem;
+	  position: relative;
+	  overflow: hidden;
+	  z-index: 0;
+	  
+	  
+	}
+	.btn1:hover,
+	.btn2:hover{
+	  transform: scale(0.95);
+	}
